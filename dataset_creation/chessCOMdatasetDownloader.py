@@ -23,7 +23,7 @@ sizes = np.linspace(100,300,9)
 
 flag = False
 
-directory = os.path.join( os.getenv("dataset") , "chess_com_pieces" )
+directory = os.path.join( os.getenv("dataset_dir") , "chess_com_pieces" )
 os.makedirs(directory,exist_ok=True)       #In case it's not created already
 
 for piece_type in piece_types:
